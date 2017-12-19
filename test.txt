@@ -1,0 +1,23 @@
+Unit testing
+ 1-Porque el unit testing
+   Existe ciertas verdades "absolutas" en el desarrollo del sofware
+   A. Solo se que no se nada. 
+   B. Todo cambia
+  2- Para ayudarnarnos a ser flexibles en este mundo cambiante para que cunado lo que pensabamos cuando teniamos que hacer A no se rompa ahora que nos han pedido que en vez de hacer A hagamos B
+    Cuando descubrimos que realmente lo podiamos haber hecho de otra forma mas sencilla y mas potente pero no sabemos si cambiandola rompemos algo
+
+  3. Conceptos
+    Deuda tecnica: Cuando desarrollamos algo para obtener resultados pero de una forma poca mantenible generamos deuda tecnica
+    Refactorizar: Cuando modificamos un programa no para que haga obtener ninguma mejora de rendimiento/funcionalidad sino de mantenibilidad
+
+ 4- Mi first unit test 
+ Calculator https://lostechies.com/derekgreer/2011/03/14/effective-tests-a-unit-test-example/
+5- crear un proyecto de consola que testee que fucniona
+6- Que es un test runner
+7- Vamos pasar una clase que nos deduce una comision es cada operación
+ comisiones
+8- si creamos la clase en el objeto se nos hace imposible el unit testing
+10. inyectamos la dependencia
+11. Necesitamos algo que nos empule nuestra clase comision. Definimos un interfaz, sustituimos
+12. Fake, stub y mock
+13. Beneficios adicionales del unit testing. Nos obliga a programar mejor. Hemos tenido que definir interfaces utilizar inyeccion de dependencias desacoplar componentes
